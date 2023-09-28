@@ -9,12 +9,9 @@ import Layout from './components/Layout';
 function AppRoutes() {
   return (
     <BrowserRouter>
-
       <Menu />
-
       <Routes>
         <Route path='/' element={<Layout />} >
-
           <Route path="/" element={<Home />} />
           <Route path="/contatos" element={<Contatos />} />
           <Route path="*" element={<div> Página não encontrada </div>}/>
