@@ -14,8 +14,8 @@ function AppRoutes() {
         <Route path='/' element={<Layout />} >
           <Route path="/" element={<Home />} />
           <Route path="/contatos" element={<Contatos />} />
-          <Route path="*" element={<div> Página não encontrada </div>}/>
         </Route>
+        <Route path="*" element={<div> Página não encontrada </div>}/>
       </Routes>
     </BrowserRouter>
   );
